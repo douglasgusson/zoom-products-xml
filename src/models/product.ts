@@ -1,0 +1,23 @@
+export type Product = {
+  id?: string;
+  name?: string;
+  description?: string;
+  link?: string;
+  listingPrice?: number;
+  price?: number;
+  imagesLinks?: string[];
+  installmentMonths?: number;
+  installmentAmount?: number;
+  department?: string;
+  subDepartment?: string;
+  isbn?: string;
+  author?: string;
+  publisher?: string;
+  mpc?: string;
+  ean?: string;
+  sku?: string;
+  brand?: string;
+  gender?: string;
+  size?: string;
+  color?: string;
+};
